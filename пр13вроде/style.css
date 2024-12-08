@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-image: url(img/backgroundHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
+.logo:hover {
+    scale: 1.1;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.logo h1 {
+    font-style: italic;
+    margin: 10px 0px 0px 5px;
+    font-weight: 500;
+}
+
+.craftBy {
+    font-size: xx-small;
+    margin: 32px 40px 0px 13px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.cont1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+}
+
+nav {
+    background-color: rgb(246,197,6);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 18px;
+    box-shadow: 
+    -3px -3px rgba(246,197,6, 0.45),
+    -6px -6px rgba(246,197,6, 0.45);
+}
+
+.headerButton {
+    border: none;
+    background-color: rgb(246,197,6);
+    color: rgb(131, 106, 5);
+    margin-right: 8px;
+    transition: 0.8s;
+}
+
+.headerButton:hover {
+    color: rgb(255, 255, 255);
+}
+
+button {
+    cursor: pointer;
+}
+
+.imgHeader {
+    width: 30px;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.textHeader {
+    padding: 30px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 200px;
+}
+
+.yellowText {
+    color: rgb(246,197,6);
+}
+
+.textHeader h1 {
+    font-weight: 500;
+}
+
+.cont3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(img/buttonsBack.jpg);
+    background-size: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.buttonsMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    transition: 0.8s;
+}
+
+.buttonsMain:hover {
+    scale: 1.1;
+}
+
+.buttonsMain img {
+    width: 140px;
+    height: 100px;
+}
+
+.buttonsMain p {
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+.cont4 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/cont4Back.png);
+    background-repeat: repeat;
+    background-size: 280px;
+    padding: 20px 10%;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.h2Cont4 {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 300px;
+    padding-top: 20px;
+}
+
+.grid {
+    background-color: rgb(237,158,3);
+}
+
+.grid p {
+    font-weight: 300;
+    font-size: 120%;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.twitter {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.twitter img {
+    width: 100%;
+    height: 100%;
+}
+
+.date {
+    margin-bottom: 30px;
+}
+
+.string {
+    width: 100%;
+    height: 14px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+
+.orangeWhat {
+    width: 25%;
+    height: 14px;
+    border-radius: 10px;
+    background-color: rgb(237,158,3);
+    margin-left: 25%;
+}
+
+.cont5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 20px 10%;
+    background-image: url(img/texture.jpg);
+    background-size: 50px;
+    box-shadow:
+    inset 0 -5px 10px rgba(0, 0, 0, 0.3),
+    inset 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cont5 h2 {
+    color: rgb(245,198,7);
+    font-weight: 400;
+}
+
+.cont6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+.cont6 ul {
+    margin-left: 30px;
+}
+
+.cont6 li {
+    font-size: large;
+    margin-bottom: 8px;
+    color: rgb(158,158,156)
+}
+
+footer {
+    background-color: rgb(76,76,76);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5px 10%;
+}
+
+footer p {
+    color: rgb(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+@media screen {
+    body {
+        min-width: 1080px;
+    }
+}
